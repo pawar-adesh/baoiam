@@ -1,0 +1,170 @@
+*
+{
+    font-family: Poppins,sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+nav{
+    box-shadow: 0px 1px 10px #bebaba;
+}
+
+/* .nav-item button {
+    background: #196ae5;
+    color:whitesmoke;
+    font-weight: bold;
+}
+.nav-item button:hover{
+    background: whitesmoke;
+    border: none;
+    color: #196ae5;
+    font-weight: bold;
+} */
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+}
+
+.rotate {
+    transform: rotate(180deg); 
+}
+
+.icon-rotate{
+    transition-duration: 0.4s;
+    display:inline-block;
+}
+  
+#programlist{
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    top:10%;
+}
+.main-content{
+    background-color: linear-gradient(45deg, white, #FFCF5C);
+}
+
+.vertical-nav ul li a{
+    color: rgba(0, 0, 0, 0.623);
+}
+section{
+    display:block;
+    position: relative;
+}
+
+.right-rotate{
+    color:white;
+    float:right;
+}
+.vertical-nav ul li a:hover{
+    border-radius: 3px;
+    background-color: #196ae5;
+    color:rgb(255, 255, 255);
+}
+
+.content-card{
+    box-shadow: 0px 0px 10px #00000027;
+    border-radius: 8px;
+    width: 100%;
+    height: 150px;
+}
+.course-name{
+    font-size: 1rem;
+}
+.course-status{
+    font-size: small;
+    color: #bebaba;
+}
+.university-logo, .course-name, .course-status{
+    padding: 8px;
+}
+.alumni-work-wrapper{
+    background: url(/static/images/bg-main.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quotation{
+  font-size: 30px;
+  margin: 0 auto;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+}
+
+.quotation:before {
+  content: open-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
+}
+.quotation::after {
+  content: close-quote;
+  display: inline;
+  height: 0;
+  line-height: 0;
+  left: 10px;
+  position: relative;
+  top: 35px;
+  color: #ccc;
+  font-size: 3em;
+}
+blockquote footer{
+  margin:0;
+  text-align: right;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.keyfactors{
+    padding: 40px;
+    text-align: center;
+    width: 70%;
+    background-color: #e9e5e5;
+    border-radius: 12px;
+}
+
+.keyfactors:hover{
+    box-shadow: 10px 10px 10px #00000027;
+    transform: scale(1.1);
+    transition: 0.8s;
+}
+.keyfactors ul{
+    margin-top: 3px;
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+}
+.keyfactors ul li:nth-child(even){
+    font-size: 1.8rem;
+    color: rgb(128, 44, 44);  
+    margin:5px;
+}
+.keyfactors ul li:nth-child(odd){
+    font-size: 1.8rem;
+    color: rgb(180, 30, 30);  
+    margin:5px;
+}
+.keyfactors ul li:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.footer {
+    background-color: #111;
+    color:rgba(255, 255, 255, 0.726);
+    margin: 0px auto;
+    padding: 20px 0px; 
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.562);
+    margin: 5px 0px;
+}
+.footer a{
+    color: rgba(255, 255, 255, 0.562);
+}
